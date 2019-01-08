@@ -32,20 +32,3 @@ rp(url)
   .catch(function(err){
     console.log(`Error! ${err.name}`);
   });
-
-
-// var url = "https://en.wikipedia.org/wiki/List_of_Prime_Ministers_of_India"; 
-
-// axios.get(url).then((result)=>{
-//     html = result.data;
-//     var $ = cheerio.load(html);
-
-//     $(".wikitable").each(function(i,e){
-//         $(this).find('a').text();
-//     });
-
-// }).catch(e=>console.log(e));
-
-// request("http://dataquestio.github.io/web-scraping-pages/simple.html", (error, response, html) => {
-//     console.log(html)
-// });
